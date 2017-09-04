@@ -17,6 +17,10 @@ This project uses Zeppelin and its built-in Spark to analyze the csv file from g
 1. Modify the *Load Data into Spark* paragraph so that the file path points to the getstat CSV file.
 1. Then run all paragraphs from the "triangle" icon near the top.
 
+## Note
+* The notebook takes advantage of Zeppelin's built-in visualization mechanisms which by the way are interactive.
+* Zeppelin is a data scientists tool. It's purpose is to explore and process data, typically in an interactive manner. With a little effort, the Scala code here could easily be written as a class with methods providing specific behaviours or functions against the data. The intent being to package the functionality into a JAR and incorporate it into a production pipeline.
+
 ## Sample Screenshot
 Here is a sample output from the notebook:
 
