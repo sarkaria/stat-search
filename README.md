@@ -16,3 +16,7 @@ This project uses Zeppelin and its built-in Spark to analyze the csv file from g
 * Spark is the de-facto solution for performing analytics on large data sets with a distributed computing environment. In this project a small sample set of data is operated upon using a local (single instance) deployment of Spark. This means that it runs on a single machine with all the data available locally. Spark can be easily deployed and configured to run on a cluster. In this case, Spark will automatically deploy (Spark) executors that will operate on data local to each compute instance.
 * Spark is very powerful and has a rich set of functionality available via Python or Scala. Here we have kept the code quite simple and used mainly those operations that could also have been implemented in SQL. Far more powerful operations, such as map-reduce operations can be used to solve more complex operations such as word-counting.
 
+## Example Screenshot
+Here is a sample output from the notebook:
+![Market Analysis Sample Output](https://github.com/sarkaria/stat-search/blob/master/market-analysis.jpg)
+
