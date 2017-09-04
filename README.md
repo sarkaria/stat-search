@@ -15,6 +15,7 @@ This project uses Zeppelin and its built-in Spark to analyze the csv file from g
 1. Wait for it to start then browse to _localhost:8098_
 1. Import the _getstat.json_ notebook.
 1. Modify the *Load Data into Spark* paragraph so that the file path points to the getstat CSV file.
+1. Since this notebook includes the results of the previous run, you don't need to do anything else to see the output. However if you do wish to play around with the notebook. E.g. to modify paragraphs or to see the notebook running, then follow the next step:
 1. Then run all paragraphs. While it is possible to do so from the "triangle" icon near the top, I find it easier to click on the "triangle" for each paragraph individually. This can be found to the right of each paragraph.
 
 ## Notes
